@@ -52,6 +52,33 @@ const SEO = ({
       
       {/* Additional meta tags or structured data provided as children */}
       {children}
+
+      {/* Standard structured data for the homepage */}
+      <script type="application/ld+json">{`
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "url": "${url}",
+          "name": "${title}",
+          "description": "${description}",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "${url}/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          },
+          "mainEntity": {
+            "@type": "Product",
+            "name": "BitNet Wallet",
+            "description": "Your Complete Bitcoin Ecosystem in One Wallet",
+            "image": "${imageUrl}",
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          }
+        }
+      `}</script>
     </Helmet>
   );
 };

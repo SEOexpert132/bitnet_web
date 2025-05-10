@@ -312,6 +312,10 @@ const HeroSection = () => {
         <span className="metric-separator">|</span>
         <span className="metric-item">Community-driven</span>
       </div>
+      {/* Invisible h1 for SEO that will be found by crawlers */}
+      <h1 className="sr-only">Your Complete Bitcoin Ecosystem in One Wallet</h1>
+
+      {/* Visible animated h1 for users */}
       <h1 className="animate-hidden" id="main-heading" data-seo-heading="true">Your <span style={{ color: '#ff8c00' }}>Complete</span> Bitcoin <span style={{ color: '#ff8c00' }}>Ecosystem</span> in One <span style={{ color: '#ff8c00' }}>Wallet</span>.</h1>
       <h2 className="animate-hidden subtitle" data-seo-heading="true">Fix Bitcoin. Fix the world. One Block at a Time.</h2>
       <div style={{ height: "25px" }}></div>

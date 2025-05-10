@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
+/* Screen reader only class - visible to screen readers and SEO but not to users */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+  /* These ensure it's not affected by animations or other styles */
+  opacity: 1 !important;
+  z-index: 9999;
+}
+
 /* Global Reset and Font */
 * {
   margin: 0;
