@@ -47,7 +47,6 @@ const DeveloperPortal = () => {
       <SEO
         title="Next-Gen Blockchain Wallet for Developers | BitNet"
         description="Build, test, and deploy with the next-gen blockchain wallet designed for developers—integrated tools, APIs, and full control over your Web3 projects."
-        canonical="https://bitnet.ai/developer-portal"
         keywords="blockchain wallet for developers"
       />
       <Header />
