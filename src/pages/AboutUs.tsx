@@ -14,7 +14,7 @@ const AboutUs = () => {
       <SEO
         title="About BitNet - Our Team and Mission | Bitcoin Wallet"
         description="Learn about the BitNet team and our mission to create the most secure, user-friendly Bitcoin wallet with self-custody and Lightning Network support."
-        canonical="https://www.bitnet.com/about"
+        canonical="https://bitnet.ai/about"
       />
       <Header />
       <main className="about-us-page">
