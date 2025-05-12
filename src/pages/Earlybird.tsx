@@ -87,7 +87,7 @@ const EarlybirdPage = () => {
       <SEO 
         title="Early Access | BitNet Bitcoin Wallet | Get Exclusive Benefits"
         description="Sign up for early access to BitNet's Bitcoin wallet and secure exclusive benefits. Limited spots available for our self-custody Bitcoin solution with Lightning Network support."
-        canonical="https://www.bitnet.com/earlybird"
+        canonical="https://bitnet.ai/earlybird"
         keywords="bitcoin wallet, early access, bitcoin app, self-custody, lightning network, exclusive benefits"
       />
       <Header />
