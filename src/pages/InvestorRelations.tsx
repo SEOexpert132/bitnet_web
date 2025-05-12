@@ -50,7 +50,7 @@ const InvestorRelations = () => {
               maxWidth: '1000px', 
               textAlign: 'center' 
             }}>
-              BitNet is building the future of best bitcoin wallet. Learn about our vision, strategy, and investment opportunities.
+              BitNet is building the future of <b>best bitcoin wallet</b>. Learn about our vision, strategy, and investment opportunities.
             </p>
           </div>
           
@@ -129,7 +129,7 @@ const InvestorRelations = () => {
                 </div>
                 
                 <p style={{ fontSize: isMobile ? '1rem' : '1.1rem', lineHeight: '1.6', marginBottom: '1.5rem' }}>
-                  BitNet is driving a fundamental shift: elevating Bitcoin from a passive store of value to a dynamic, high-velocity payment platform. Our tech delivers transactions in less than a second with fees under $0.01 and seamless web3 integration, unlocking Bitcoin's massive $1.2T network for real-world utility.
+                  BitNet is driving a fundamental shift: elevating Bitcoin from a passive store of value to a dynamic, high-velocity payment platform. Our tech delivers transactions in less than a second with fees under $0.01 and seamless <b>Web3 Wallet Integration</b>, unlocking Bitcoin's massive $1.2T network for real-world utility.
                 </p>
                 
                 <div style={{
@@ -799,7 +799,7 @@ const InvestorRelations = () => {
                   fontSize: isMobile ? '1rem' : '1.1rem',
                   textAlign: isMobile ? 'center' : 'left'
                 }}>
-                  User feedback from our initial testing has been gold, and recent developments like Tether's Web3 Bitcoin Integration via Taproot Assets Protocol perfectly align with our strategy. The momentum is building, and BitNet is ready to capitalize on fast and easy payments, digital assets and tokens coming to bitcoin in a big way.
+                  User feedback from our initial testing has been gold, and recent developments like Tether's <b>Web3 Bitcoin Integration</b> via Taproot Assets Protocol perfectly align with our strategy. The momentum is building, and BitNet is ready to capitalize on fast and easy payments, digital assets and tokens coming to bitcoin in a big way.
                 </p>
               </div>
             </div>
